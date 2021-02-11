@@ -1,11 +1,20 @@
 // js basics 2: if, for, array, JSON, JSON-file, JSON.stringify, functions, foreach
 
+// truthy and falsy
+let x = null;
+
+if (x) {
+    console.log('OK');
+} else {
+    console.log('NOT OK');
+}
+
 // foreach
-let arr = [1, 2, 3, 4];
-arr.forEach((el) => {
-    const res = el + 2;
-    console.log(res);
-});
+// let arr = [1, 2, 3, 4];
+// arr.forEach((el) => {
+//     const res = el + 2;
+//     console.log(res);
+// });
 
 // arrow functions
 // const sqrt = function (x) {
