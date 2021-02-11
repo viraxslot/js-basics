@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test1": "echo 123"
+        "test": "./node_modules/mocha/bin/mocha test/first.spec.js"
     },
     "keywords": [],
     "author": "",
@@ -14,6 +14,7 @@
     "devDependencies": {
         "chai": "^4.3.0",
         "lodash": "^4.17.20",
-        "mocha": "^8.2.1"
+        "mocha": "^8.2.1",
+        "puppeteer": "^7.0.4"
     }
 }
