@@ -1,0 +1,16 @@
+{
+    "name": "js-basics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test1": "echo 123"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.0",
+        "mocha": "^8.2.1"
+    }
+}
